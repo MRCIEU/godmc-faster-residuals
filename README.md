@@ -47,6 +47,8 @@ The phenotype file that goes into this script can be a subset of all phenotypes,
 - 3Gb RAM
 - 72 minutes
 
+Repeated with 2k samples = 24 minutes.
+
 ## To run
 
 - `simulate.sh` - This takes a plink dataset (single file for all chromosomes) and simulates 1000 phenotypes, then LD prunes the plink dataset
