@@ -2,20 +2,9 @@
 
 # Simulate phenotype data
 
-bfile="/local-scratch/data/alspac/1kg_bestguess_filtered/data"
-# bfile="data/data"
 bfile="/mnt/storage/private/alspacdata/datasets/dataset_gi_1000g_g0m_g1/released/2015-10-30/data/derived/filtered/bestguess/maf0.01_info0.8/combined/data"
+# Generate 100 for every sim below e.g. nsim=10 gives 1000 phenotypes
 nsim=10
-
-# gcta64 --bfile $bfile --simu-qt --simu-hsq 0.4 --simu-rep $nsim --out phen
-
-# echo "FID" > head.txt
-# echo "IID" >> head.txt
-# for i in $(seq 1 $nsim); do
-# echo "X$i" >> head.txt
-# done
-# tr '\n' '\t' < head.txt > head2.txt
-# cat head2.txt phen.phen > phen.txt
 
 mkdir -p out/sim
 > out/cischr
