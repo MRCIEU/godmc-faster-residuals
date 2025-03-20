@@ -8,7 +8,7 @@ $$
 y = u + e
 $$
 
-where $u \sim (N(0, \sigma^2_a K))$ and $K = \frac{1}{M}XX^T$. This can be approximated in regenie where ridge regression is used to estimate the genetic value $u$, in the following:
+where the vector of genetic values for each individual $u \sim N(0, \sigma^2_a K)$ and $K = \frac{1}{M}XX^T$. This can be approximated in regenie where ridge regression is used to estimate the genetic value $u$, in the following:
 
 $$
 y = X\beta + e
